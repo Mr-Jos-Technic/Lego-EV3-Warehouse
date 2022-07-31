@@ -18,7 +18,7 @@ Current setup uses;
 - (1) Warehouse_Roll_Conveyors_v1   (Master EV3, bluetooth connection to (2),(3) and (4). UART connection to (6) )
 - (2) Warehouse_Chain_Conveyors_v1  (Slave EV3,  bluetooth connection to (1) )
 - (3) Warehouse_Stacker_Crane_v1    (Slave EV3,  bluetooth connection to (1) )
-- (4) Warehouse_Righttside_Robot_v1 (Slave EV3,  bluetooth connection to (1) and (5) )
+- (4) Warehouse_Rightside_Robot_v1  (Slave EV3,  bluetooth connection to (1) and (5) )
 - (5) Warehouse_Leftside_Robot_v1   (Master EV3, bluetooth connection to (4) )
 - (6) Main                          (ESP32, UART connection to (1) )
   
