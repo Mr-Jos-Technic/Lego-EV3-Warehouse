@@ -71,7 +71,7 @@ conv_status_to_crane_mbox   = TextMailbox('conveyor update to crane' , client_cr
 crane_status_to_conv_mbox   = TextMailbox('crane update to conveyor' , client_crane)        #Sending   the bluetooth commands to   the master EV3 brick on this channel
 
 
-##########~~~~~~~~~~CREATING AND STARTING A TIMER, FOR INVERSE KINEMATIC SMOOTH CONTROL~~~~~~~~~~##########
+##########~~~~~~~~~~CREATING AND STARTING A TIMER~~~~~~~~~~##########
 #timer_movement = StopWatch()                                                               #Creating a timer
 #timer_movement.time()                                                                      #Reading  a timer's current value (ms)
 #timer_movement.pause()                                                                     #Stopping a timer
